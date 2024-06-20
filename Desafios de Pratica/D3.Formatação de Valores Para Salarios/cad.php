@@ -20,10 +20,6 @@
                 echo "<p>O valor da cotacao é <strong>\$</strong>" . number_format($cotacao, 2,".",",");*/
 
                 //FORMA 2
-                /*echo "<p>A conversao do seu valor <strong>R\$</strong>".number_format($valor,2, ".",","). " e o valor convertido é <strong>\$</strong>". number_format($resultado, 2, ".", ","). "\n";
-                echo "<p>O valor da cotacao é <strong>\$</strong>" . number_format($cotacao, 2,".",",");*/
-
-                //FORMA 3
                 $padrao = numfmt_create("pt_BR", NumberFormatter::CURRENCY);
                 echo " <p>Seus ". numfmt_format_currency($padrao, $valor, "BRL"). " Equivalem a <strong>" . numfmt_format_currency($padrao,$resultado, "USD") . "</strong></p>";
                 
