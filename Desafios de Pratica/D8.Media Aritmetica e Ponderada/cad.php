@@ -33,8 +33,8 @@
                 echo "<p>Analisando os valores $nota1 e $nota2</p>". "\n";
                 echo "<p><strong>A Media Aritmetica Simples</strong> entre os valores é igual a ". number_format($resultadoMedia, 2, ",",".");
                 echo "<p><strong>A Media Aritmetica Ponderada é</strong>: ". number_format($resultadoMediaP,2,",",".");
-                if($resultadoMediaP == 0){
-                    echo "<p>Não é possivel calcular a media ponderada pois os pesos são iguais a zero";
+                    if($resultadoMediaP == 0){
+                        echo "<p>Não é possivel calcular a media ponderada pois os pesos são iguais a zero";
                 }
             ?>
 
