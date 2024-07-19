@@ -9,7 +9,7 @@
     <main>
         <h1>Nota de A-F</h1>
         <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
-            <label for="nota1"><br>Primeira Nota</br></label>
+            <label for="nota1"><br>Primeira Nota</label>
             <input type="number" name="nota1" id="nota1" step="0.10">
             <label for="nota2"><br>Segunda Nota</br></label>
             <input type="number" name="nota2" id="nota2" step="0.10">

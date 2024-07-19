@@ -9,7 +9,7 @@
 <body>
     <main>
         <form action="<?=$_SERVER ['PHP_SELF'] ?>" method="post">
-            <label for="Nome"><br>Nome do Funcionario?</br></label>
+            <label for="Nome"><br>Nome do Funcionario?</label>
             <input type="text" name="Nome" id="Nome">
             <label for="Salario"><br>Qual o salario do Funcionario?</br></label>
             <input type="number" name="Salario" id="Salario" step="0.10">

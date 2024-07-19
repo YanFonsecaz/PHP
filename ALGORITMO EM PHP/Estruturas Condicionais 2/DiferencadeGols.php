@@ -9,7 +9,7 @@
     <main>
         <h1>Descubra o Status do jogo</h1>
         <form action="<?= $_SERVER['PHP_SELF'] ?>" method="post">
-            <label for="timeA"><br>TIME A</br></label>
+            <label for="timeA"><br>TIME A</label>
             <input type="number" name="timeA" id="timeA">
             <label for="timeB"><br>TIME B</br></label>
             <input type="number" name="timeB" id="timeB">
