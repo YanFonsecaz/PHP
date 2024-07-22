@@ -12,9 +12,9 @@
             <?php 
 
                for ($contador=0; $contador <= 10 ; $contador++) { 
-                    echo "<br>Contagem $contador";
+                    echo "<br>Contagem $contador</br>";
                } 
-                    echo "<br>Terminei a contagem";
+                    echo "<br>Terminei a contagem</br>";
             ?>
         </form>
     </main>

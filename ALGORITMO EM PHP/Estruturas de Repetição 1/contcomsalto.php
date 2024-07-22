@@ -18,9 +18,9 @@
                 $valorUsua = $_REQUEST['valorUsua'] ?? 0;
                 $salto = $_REQUEST['salto'] ?? 1;
                for ($contador = 0; $contador <= $valorUsua ; $contador+= $salto) { 
-                    echo "<br>Contagem $contador";
+                    echo "<br>Contagem $contador</br>";
                } 
-                    echo "<br>Terminei a contagem";
+                    echo "<br>Terminei a contagem</br>";
             ?>
         </form>
     </main>
