@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php 
-        //Capturando os dados do formulario Retroalimentado
+        
         $valor1 = $_REQUEST['v1'] ?? 0;
         $valor2 = $_REQUEST['v2'] ?? 0;
         
